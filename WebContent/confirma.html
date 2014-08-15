@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Casamento Dan e Ton</title>
+		<!-- Bootstrap core CSS -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <!-- Bootstrap theme -->
+	    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	    <link rel="shortcut icon" href="img/casamento.ico" >
+	    <link href="css/carousel.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="head col-md-offset-4">
+		<img src="img/Logo.png">
+	</div>
+	
+    <div class="row">
+		<form class="col-md-6 col-md-offset-2">
+		<table class="table table-condensed">
+			<tbody>
+				<tr>
+					<td>
+						<div><label class="control-label">Nome</label></div>
+					</td>
+					<td>
+						<div><input type="text" class="form-control" placeholder="Entre com o seu nome"  maxlength=50></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div><label class="control-label">E-mail</label></div>
+					</td>
+					<td>
+						<div><input type="text" class="form-control" id="email" placeholder="Entre com o e-mail"  maxlength=50></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div><label class="control-label">Quantidade de convidados</label></div>
+					</td>
+					<td class="radio-txt">
+						<div class="radio-inline"><input type="Radio" name="convidados"  class="c" checked onClick="desabilitaRadios0()">0</div>
+						<div class="radio-inline"><input type="Radio" name="convidados"  class="c" onClick="desabilitaRadios1()">1</div>
+						<div class="radio-inline"><input type="Radio" name="convidados"  class="c" onClick="desabilitaRadios2()">2</div>
+						<div class="radio-inline"><input type="Radio" name="convidados"  class="c" onClick="desabilitaRadios3()">3</div>
+						<div class="radio-inline"><input type="Radio" name="convidados"  class="c" onClick="desabilitaRadios4()">4</div>
+						<div class="radio-inline"><input type="Radio" name="convidados"  class="c" onClick="desabilitaRadios5()">5</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div><label class="control-label">Convidado 1</label></div>
+					</td>
+					<td>
+						<div><input type="text" class="form-control" id="convidado1" placeholder="Entre com o nome"  maxlength=50></div>
+					</td>
+					<td>
+						<label class="control-label">Idade</label>
+					</td>
+					<td>
+			        	<div><input class="form-control"type="number" size=1 min=0 max=99 id="idade1" placeholder="Idade"></div>
+			        </td>
+					
+				</tr>
+				<tr>
+					<td>
+						<div><label class="control-label">Convidado 2</label></div>
+					</td>
+					<td>
+						<div><input type="text" class="form-control" id="convidado2" placeholder="Entre com o nome"  maxlength=50></div>
+					</td>
+					<td>
+						<label class="control-label">Idade</label>
+					</td>
+					<td>
+			        	<div><input class="form-control" type="number" size=1 min=0 max=99 id="idade2" placeholder="Idade"></div>
+			        </td>
+				</tr>
+				<tr>
+					<td>
+						<div><label class="control-label">Convidado 3</label></div>
+					</td>
+					<td>
+						<div><input type="text" class="form-control" id="convidado3" placeholder="Entre com o nome"  maxlength=50></div>
+					</td>
+										<td>
+						<label class="control-label">Idade</label>
+					</td>
+					<td>
+			        	<div><input class="form-control"type="number" size=1 min=0 max=99 id="idade3" placeholder="Idade"></div>
+			        </td>
+				</tr>
+				<tr>
+					<td>
+						<div><label class="control-label">Convidado 4</label></div>
+					</td>
+					<td>
+						<div><input type="text" class="form-control" id="convidado4" placeholder="Entre com o nome"  maxlength=50></div>
+					</td>
+										<td>
+						<label class="control-label">Idade</label>
+					</td>
+					<td>
+			        	<div><input class="form-control"type="number" size=1 min=0 max=99 id="idade4" placeholder="Idade"></div>
+			        </td>
+				</tr>
+				<tr>
+					<td>
+						<div><label class="control-label">Convidado 5</label></div>
+					</td>
+					<td>
+						<div><input type="text" class="form-control" id="convidado5" placeholder="Entre com o nome"  maxlength=50></div>
+					</td>
+										<td>
+						<label class="control-label">Idade</label>
+					</td>
+					<td>
+			        	<div><input class="form-control"type="number" size=1 min=0 max=99 id="idade5" placeholder="Idade"></div>
+			        </td>
+				</tr>
+				<tr>
+					<td>
+						
+					</td>
+					<td class="botao">
+						<button name="envia">Enviar</button>
+						<button type="reset" onClick="desabilitaRadios0()">Limpar</button>
+					</td>
+					<td>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+	</div>
+	</body>
+	<footer>
+		<!-- Placed at the end of the document so the pages load faster -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/docs.min.js"></script>
+    	<script src="js/radio.js"></script>
+	</footer>
+</html>
